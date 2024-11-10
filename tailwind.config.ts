@@ -15,7 +15,7 @@ export default {
         white: "#ffffff"
       },
       fontFamily: {
-        corals: ['TT Corals', 'sans-serif'], 
+        corals: ['TT Fors', 'sans-serif'], 
       },
     },
   },

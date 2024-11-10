@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Navbar from './components/navBar';
 import "./globals.css";
 
 
@@ -12,12 +13,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
-    <html lang="en">
-      <body
-        className='font-corals bg-background text-black'
-      >
-              <header>test</header>
+    <html lang="fr">
+      <body>
+          <header>
+            <Navbar/>
+          </header>
         {children}
       </body>
     </html>
