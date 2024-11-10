@@ -9,8 +9,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#c3edef",
+        purple: "#8f5bbd",
+        black: "#000000",
+        white: "#ffffff"
+      },
+      fontFamily: {
+        corals: ['TT Corals', 'sans-serif'], 
       },
     },
   },
